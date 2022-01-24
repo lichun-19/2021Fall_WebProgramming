@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Photo Album</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="left-side">
+          <div class="description">Albums</div>
+          <a id="currentPage" onclick="changePage(this)" href="index.html"
+            >Taiwan Culcure</a
+          >
+          <a onclick="changePage(this)" href="beach.html">Beach</a>
+          <a onclick="EmPage(this)">Mountain</a>
+        </div>
+        <div class="right-side">
+          <div>LICHUN LU</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="headline">
+      <h1>Album of Taiwan Culcure</h1>
+      <h3>This is my second homework of the web programming course.</h3>
+    </div>
+
+    <div class="container">
+      <div class="description">Preview selected works</div>
+
+      <div id="ImgsGallery" class="small-images">
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1561450031-20d7c3da043a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRhaXdhbiUyMGN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            ,
+            width="100%"
+            id="first"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1530014708989-55a898ad9552?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRhaXdhbiUyMGN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            ,
+            width="100%"
+          />
+        </div>
+
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1519181245277-cffeb31da2e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGFpd2FuJTIwY3VsdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            ,
+            width="100%"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1618218620243-822b48c87d35?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHRhaXdhbiUyMGN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+          "
+            ,
+            width="100%"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1611026915479-7fd2557d515d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHRhaXdhbiUyMGN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            ,
+            width="100%"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1470004914212-05527e49370b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGFpd2FufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+          "
+            ,
+            width="100%"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1633529133119-488c1ea1a535?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHx0YWl3YW4lMjBjdWx0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+          "
+            ,
+            width="100%"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1610773923256-39e147c8b041?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1475&q=80"
+            ,
+            width="100%"
+          />
+        </div>
+        <div class="small-image">
+          <img
+            onclick="ChangeImg(this)"
+            src="https://images.unsplash.com/photo-1614418805838-b3cfe42125d5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ3fHx0YWl3YW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            ,
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="description">Memories for you</div>
+      <div class="main_bar">
+        <div class="arr">
+          <div class="left_arr">
+            <img src="images/left_arr.png" , width="100%" />
+          </div>
+        </div>
+
+        <div class="big-image">
+          <img
+            src="https://images.unsplash.com/photo-1561450031-20d7c3da043a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRhaXdhbiUyMGN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            id="display"
+          />
+        </div>
+
+        <div class="arr">
+          <div class="right_arr">
+            <img src="images/right_arr.png" , width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Website created on 18th Oct ,2021.</p>
+      <p>All image resources from Unsplash.</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
